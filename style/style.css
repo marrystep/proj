@@ -4,7 +4,7 @@ body {
 	background: #e7eff7; /* For browsers that do not support gradients */
     background: linear-gradient(0deg, #f1e7f4, #e7eff7); /* Standard syntax (must be last) */	
 	height:100% !important;
-	
+	color:#4e5f68;
 }
 
 .header {
@@ -135,6 +135,11 @@ a {
 }
 a:hover {
 	color:#ab7acf;
+}
+
+.zp{
+	font-weight:bold;
+	color:#733a9d;
 }
 
 /*tables*/
