@@ -20,7 +20,7 @@ body {
 .mainBlock, .content_box{
 	background:transparent url('../style/img/centerBckg1.png') top left no-repeat;
 	text-align:center;
-	
+	min-height:600px;
 }
 .mainBlock{
 	min-height:500px;
@@ -66,6 +66,16 @@ body {
 	display:block;
 }
 
+
+/*progress*/
+.progress{
+	
+	 -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
 
 
 /*button*/
@@ -148,6 +158,8 @@ a:hover {
 
     border: none;
 }
-
+.table thead th{
+	font-size:10px;
+}
 
 /* --- */
